@@ -3,7 +3,7 @@
   "compilerOptions": {
     // File Layout
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./dist/js",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -25,6 +25,7 @@
     "exactOptionalPropertyTypes": true,
 
     // Style Options
+    "noEmitOnError": true,
     // "noImplicitReturns": true,
     // "noImplicitOverride": true,
     // "noUnusedLocals": true,
@@ -33,7 +34,6 @@
     // "noPropertyAccessFromIndexSignature": true,
 
     // Recommended Options
-    "noEmitOnError": true,
     "strict": true,
     "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
