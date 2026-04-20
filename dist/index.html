@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning TypeScript</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="w-full h-[100vh] flex justify-center items-center">
-    <div
+    <!-- Counter App -->
+    <!-- <div
       class="w-96 h-52 border border-blue-600 flex flex-col justify-center items-center gap-5"
     >
       <div class="flex flex-col justify-center items-center gap-2">
@@ -34,11 +42,22 @@
           Reset
         </button>
       </div>
+    </div> -->
+    <!-- Show Hide Password App -->
+    <div
+      class="w-96 h-52 border border-blue-600 flex flex-col justify-center items-center gap-5"
+    >
+      <span class="text-2xl font-semibold">Show/Hide Password App</span>
+      <div class="relative">
+        <input id="input" type="password" class="border border-black p-[2px]" />
+        <button id="btn" class="absolute right-1">👁️</button>
+      </div>
     </div>
     <!-- <script src="/dist/js/literalTypes.js" defer type="module"></script> -->
     <!-- <script src="/dist/js/unionIntersection.js" defer type="module"></script> -->
     <!-- <script src="/dist/js/typeAliases.js" defer type="module"></script> -->
     <!--    <script src="/dist/js/functionTypes.js" defer type="module"></script>-->
-    <script src="/dist/js/counterApp.js" defer type="module"></script>
+    <!-- <script src="/dist/js/counterApp.js" defer type="module"></script> -->
+    <script src="/dist/js/showHidePassword.js" defer type="module"></script>
   </body>
 </html>
